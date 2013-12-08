@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/datachannel.io/datachannel.io.js"></script>
+        <script>
+            var datachannel = new DataChannel({
+                socketServer: 'http://192.168.99.111:1337'
+            });
+        </script>
+    </body>
+</html>
